@@ -1,0 +1,33 @@
+2021-04-30 21:30:38.147  INFO 12440 --- [main] c.j.s.d.j.SpringsDataJpaDemo1Application : Starting SpringsDataJpaDemo1Application using Java 15.0.2 on DESKTOP-0M2JCMK with PID 12440 (E:\workspace\Basic Spring 5\07SpringAspectDemo1\target\classes started by LENOVO in E:\workspace\Basic Spring 5\07SpringAspectDemo1)
+2021-04-30 21:30:38.152  INFO 12440 --- [main] c.j.s.d.j.SpringsDataJpaDemo1Application : No active profile set, falling back to default profiles: default
+2021-04-30 21:30:39.782  INFO 12440 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-30 21:30:39.898  INFO 12440 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interfaces.
+2021-04-30 21:30:41.422  INFO 12440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 21:30:41.442  INFO 12440 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 21:30:41.442  INFO 12440 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-30 21:30:41.998  INFO 12440 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-30 21:30:42.012  INFO 12440 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 21:30:42.013  INFO 12440 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3716 ms
+2021-04-30 21:30:42.384  INFO 12440 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-30 21:30:43.345  INFO 12440 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-30 21:30:43.450  INFO 12440 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-30 21:30:43.616  INFO 12440 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-04-30 21:30:44.044  INFO 12440 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-30 21:30:44.375  INFO 12440 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-04-30 21:30:45.684  INFO 12440 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-30 21:30:45.703  INFO 12440 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-30 21:30:46.561  WARN 12440 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-30 21:30:46.819  INFO 12440 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 21:30:47.022  INFO 12440 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-04-30 21:30:47.419  INFO 12440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 21:30:47.436  INFO 12440 --- [main] c.j.s.d.j.SpringsDataJpaDemo1Application : Started SpringsDataJpaDemo1Application in 10.304 seconds (JVM running for 13.222)
+2021-04-30 21:31:26.809  INFO 12440 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-30 21:31:26.810  INFO 12440 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-30 21:31:26.812  INFO 12440 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-04-30 21:31:26.881  INFO 12440 --- [http-nio-8080-exec-1] c.j.s.dta.jpa.controller.MyBeforeAspect  :  Check for user access 
+2021-04-30 21:31:26.882  INFO 12440 --- [http-nio-8080-exec-1] c.j.s.dta.jpa.controller.MyBeforeAspect  :  Allowed execution for 
+2021-04-30 21:32:00.257  INFO 12440 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-04-30 21:32:00.333  INFO 12440 --- [RMI TCP Connection(8)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-30 21:32:00.335  INFO 12440 --- [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-30 21:32:00.338  INFO 12440 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-30 21:32:00.369  INFO 12440 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
